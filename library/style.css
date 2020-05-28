@@ -1,0 +1,71 @@
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-areas: 
+    "sidebar1 main main main"
+    "sidebar1 main main main"
+    "sidebar1 main main main"
+    "sidebar1 main main main"
+    ;
+  }
+  
+  .item{
+    margin: 2px;
+    background-color: ;
+  }
+  
+  .header{
+    grid-area: header;
+    
+  }
+  
+  .sidebar1{
+    grid-area: sidebar1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: lightgreen;
+  }
+  
+  .main{
+    grid-area: main;
+    display: flex;
+    justify-content: center;
+    background: lightsalmon;
+    align-items: center;
+  }
+  
+  .tabelka,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 1rem;
+    margin: 50px;
+  }
+  
+  .row{
+    background-color: white;
+    text-align: center;
+  }
+  
+  .kol{
+    border: 2px solid black;
+  }
+  
+  th{
+    padding: 2rem;
+    background-color: white;
+  }
+  
+  .pasek{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .ins{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
